@@ -1,0 +1,120 @@
+.header {
+  background-color: burlywood;
+  color: black;
+  text-align: center;
+  font-family: 'Times New Roman', Times, serif;
+  padding: 20px; 
+  margin: 0;
+  display: block; 
+  width: 100%; 
+}
+
+.intro{
+     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+     font-size: 360%;
+     text-align: center;
+}
+
+.body{
+    text-align: center;
+    margin-left: 15%;
+    margin-right: 15%;
+    font-size: 150%;
+    padding-bottom: 60px; 
+}
+
+  .image {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    margin-top: 0%;
+
+    width: 350px;
+  height: 350px;
+  border-radius: 20%;
+  object-fit: cover;
+ 
+  }
+  .image1 {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 40%;
+    margin-top: 0%;
+
+    width: 350px;
+  height: 350px;
+  border-radius: 10%;
+  object-fit: cover;
+ 
+  }
+
+  .p3{
+    text-align: center;
+    margin-top: 50%;
+    margin-left: 15%;
+    margin-right: 15%;
+    font-size: 150%;
+  }
+
+  .footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: burlywood;
+    color: black;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    padding: 1px;
+  }
+
+
+
+  .button {
+    border-radius: 4px;
+    background-color: burlywood;
+    border: none;
+    color: #FFFFFF;
+    text-align: center;
+    font-size: 28px;
+    padding: 20px;
+    width: 200px;
+    transition: all 0.5s;
+    cursor: pointer;
+    margin: 5px;
+    
+  }
+  
+  .button span {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+  }
+  
+  .button span:after {
+    content: '\00bb';
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -20px;
+    transition: 0.5s;
+  }
+  
+  .button:hover span {
+    padding-right: 25px;
+  }
+  
+  .button:hover span:after {
+    opacity: 1;
+    right: 0;
+  }
+
+    .button-container {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 20vh; 
+  }
